@@ -1,0 +1,24 @@
+.header__row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.header__logo__img img{
+  max-width: 36px;
+  width: 100%;
+  height: auto;
+}
+
+.header__logo__name span{
+  font-size: 30px;
+  font-weight: 800;
+}
