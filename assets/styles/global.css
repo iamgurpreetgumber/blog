@@ -13,9 +13,18 @@
 
 body{
   background: var(--bgColor);
+  position: relative;
+  height: auto;
+  width: 100%;
 }
 
 h1, h2, h3, h4, h5{
   color: var(--heading);
 }
 
+.container{
+  max-width: 1400px;
+  width: 100%;
+  margin: 0px auto;
+  height: auto;
+}
