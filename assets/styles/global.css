@@ -8,8 +8,11 @@
 /* defined variables */
 :root{
   --bgColor: #FEFEFA;
+  --fontColor: #000000;
   --heading: #F88379;
   --fontFamily: "Roboto", sans-serif;
+  --secBgColor: #000000;
+  --secFontColor: #FEFEFA;
 }
 
 body{
