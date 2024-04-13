@@ -13,6 +13,7 @@
   --fontFamily: "Roboto", sans-serif;
   --secBgColor: #000000;
   --secFontColor: #FEFEFA;
+  --shadowColor: #80808080;
 }
 
 body{
