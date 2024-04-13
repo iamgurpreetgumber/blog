@@ -9,9 +9,11 @@
 :root{
   --bgColor: #FEFEFA;
   --heading: #F88379;
+  --fontFamily: "Roboto", sans-serif;
 }
 
 body{
+  font-family: var(--fontFamily);
   background: var(--bgColor);
   position: relative;
   height: auto;
