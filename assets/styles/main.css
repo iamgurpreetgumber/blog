@@ -6,3 +6,6 @@
 @import url('./global.css');
 @import url('./header.css');
 @import url('./footer.css');
+
+/* pages css */
+@import url('./home.css');
