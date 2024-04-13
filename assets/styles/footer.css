@@ -42,3 +42,7 @@
   color: var(--secFontColor);
   border-radius: 15px;
 }
+
+.footer__content__area .copyright p {
+  font-size: 12px;
+}
