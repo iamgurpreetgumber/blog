@@ -69,3 +69,33 @@
 .skills .skills__items__skills ul li:last-child{
   margin-right: 0px;
 }
+
+.exp .exp__row{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 14px 30px;
+}
+
+.exp__row .exp__items__desc .exp__items__heading h5{
+  color: var(--fontColor);
+  font-size: 14px;
+  font-family: 400;
+  margin-bottom: 4px;
+}
+
+.exp__row .exp__items__desc .exp__items__heading h2{
+  font-weight: 300;
+  margin-bottom: 4px;
+}
+
+.exp__row .exp__items__desc ul li{
+  margin-bottom: 12px;
+  font-size: 13px;
+  list-style-type: circle;
+}
+
+.exp__row .exp__items__desc .exp__items__heading h4{
+  color: var(--fontColor);
+  font-family: 400;
+  margin-bottom: 20px;
+}
