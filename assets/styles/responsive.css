@@ -11,6 +11,8 @@ laptop: 1024px;
 @media only screen and (max-width: 425px) {
   .header .header__row{
     justify-content: center;
+    flex-direction: column;
+    gap: 10px 0px;
   }
 
   .hero__row{
