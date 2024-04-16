@@ -9,3 +9,6 @@
 
 /* pages css */
 @import url('./home.css');
+
+/* responsive */
+@import url('./responsive.css');

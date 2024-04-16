@@ -1,0 +1,25 @@
+/* for small screens (320px)*/
+
+@media only screen and (max-width: 320px) {
+  .header .header__row{
+    justify-content: center
+  }
+
+  .hero__row{
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero__row__items img {
+    max-width: 160px;
+  }
+
+  .about__content, .exp__content{
+    padding: 10px;
+  }
+
+  .skills .skills__row, .exp .exp__row{
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+}
