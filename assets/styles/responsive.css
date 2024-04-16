@@ -1,8 +1,16 @@
-/* for small screens (320px)*/
+/* Breakpoints
+sm-mobile: 325px
+md-mobile: 375px
+lg: 425px;
+tablets: 768px;
+laptop: 1024px;
 
-@media only screen and (max-width: 320px) {
+*/
+
+
+@media only screen and (max-width: 425px) {
   .header .header__row{
-    justify-content: center
+    justify-content: center;
   }
 
   .hero__row{
@@ -10,9 +18,9 @@
     text-align: center;
   }
 
-  .hero__row__items img {
+  /* .hero__row__items img {
     max-width: 160px;
-  }
+  } */
 
   .about__content, .exp__content{
     padding: 10px;
