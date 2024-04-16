@@ -14,6 +14,13 @@
   --secBgColor: #000000;
   --secFontColor: #FEFEFA;
   --shadowColor: #80808080;
+  /* breakpoints */
+  --mobile: 320px;
+  --md-mobile: 375px;
+  --lg-mobile: 425px;
+  --tablet: 768px;
+  --laptop: 1024px;
+
 }
 
 body {
